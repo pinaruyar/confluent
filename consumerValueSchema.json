@@ -1,0 +1,43 @@
+{
+    "$id": "http://example.com/myURI.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "additionalProperties": false,
+    "description": "Artwork Value Schema",
+    "properties": {
+      "ARTIST": {
+        "connect.index": 0,
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "ARTISTNATIONALITY": {
+        "connect.index": 1,
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "OBJECTBEGINDATE": {
+        "connect.index": 2,
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "connect.type": "int32",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    "type": "object"
+  }

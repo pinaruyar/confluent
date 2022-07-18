@@ -1,0 +1,56 @@
+{
+    "$id": "http://example.com/myURI.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "additionalProperties": false,
+    "description": "Artwork Value Schema",
+    "properties": {
+      "artist": {
+        "description": "Artist of the artwork",
+        "type": "string"
+      },
+
+      "artistNationality": {
+        "default": null,
+        "description": "Nationality of the artist",
+        "type": [
+            "null",
+            "string"
+          ]
+      },
+
+      "objectBeginDate": {
+        "default": null,
+        "description": "The year the artwork was started to be created",
+        "type": [
+            "null",
+            "integer"
+          ]
+      },
+      "myField1": {
+        "default": null,
+        "description": "The integer type is used for integral numbers.",
+        "type": [
+          "null",
+          "integer"
+        ]
+      },
+      "myField2": {
+        "default": null,
+        "description": "The number type is used for any numeric type, either integers or floating point numbers.",
+        "type": [
+          "null",
+          "number"
+        ]
+      },
+      "myField3": {
+        "default": null,
+        "description": "The string type is used for strings of text.",
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "title": "ArtworkValue",
+    "type": "object"
+  }

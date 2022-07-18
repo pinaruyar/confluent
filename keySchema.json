@@ -1,0 +1,14 @@
+{
+    "$id": "http://example.com/myURI.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "additionalProperties": false,
+    "description": "Artwork Title Schema",
+    "properties": {
+      "title": {
+        "description": "Title of the artwork",
+        "type": "string"
+      }
+    },
+    "title": "ArtworkTitle",
+    "type": "object"
+  }

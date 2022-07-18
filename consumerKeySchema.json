@@ -1,0 +1,10 @@
+{
+    "oneOf": [
+      {
+        "type": "null"
+      },
+      {
+        "type": "string"
+      }
+    ]
+  }
