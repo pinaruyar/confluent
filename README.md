@@ -12,7 +12,6 @@ The goal is the create a [producer](https://docs.confluent.io/platform/current/c
 
 #### In order to move on you will need to have an account on https://confluent.cloud
 
-- VScode
 - Python3
 - [ksqldb](https://docs.confluent.io/cloud/current/get-started/index.html)
 - [Confluent CLI](https://docs.confluent.io/confluent-cli/current/overview.html)
