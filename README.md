@@ -4,9 +4,11 @@
  
  
 ##Setup
+
 In order to move on you will need to have an account on
 https://confluent.cloud
 
 ##Data Source
+
 https://metmuseum.github.io/ 
  
